@@ -30,7 +30,7 @@ public class httpServerV1 {
         String response =
                 "HTTP/1.1 200 OK\r\n" +
                         "Content-Type: text/html\r\n\r\n" +
-                        "<h6>Narendra modi is gay</h6>";
+                        "<h6>Hello from HTTP Server</h6>";
         //convert string -> bytes
         byte[] responseBytes = response.getBytes();
 
